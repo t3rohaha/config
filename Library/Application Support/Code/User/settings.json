@@ -1,0 +1,98 @@
+{
+    // Disable breadcrumbs in the editor
+    "breadcrumbs.enabled": false,
+
+    // Set the font size for the debug console to 7
+    "debug.console.fontSize": 7,
+
+    // Disable inline suggestions in the editor
+    "editor.inlineSuggest.enabled": false,
+
+    // Disable inlay hints in the editor
+    "editor.inlayHints.enabled": "off",
+
+    // Disable lightbulb actions in the editor
+    "editor.lightbulb.enabled": "off",
+
+    // Set line numbers in the editor to be displayed relatively
+    "editor.lineNumbers": "relative",
+
+    // Disable minimap in the editor
+    "editor.minimap.enabled": false,
+
+    // Disable quick suggestions for comments, strings, and other in the editor
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "other": "off",
+        "strings": "off"
+    },
+
+    // Set a vertical ruler in the editor at column 80
+    "editor.rulers": [80],
+
+    // Hide horizontal scrollbar in the editor
+    "editor.scrollbar.horizontal": "hidden",
+
+    // Hide vertical scrollbar in the editor
+    "editor.scrollbar.vertical": "hidden",
+
+    // Hide variables from suggestions in the editor
+    "editor.suggest.showVariables": false,
+
+    // Disable suggestion triggers in the editor
+    "editor.suggestOnTriggerCharacters": false,
+
+    // Disable confirmation prompt when deleting files in file explorer
+    "explorer.confirmDelete": false,
+
+    // Disable confirm when drag and drop files in file explorer
+    "explorer.confirmDragAndDrop": false,
+
+    // Exclude specific folders from explorer
+    "files.exclude": {
+        ".angular": true,
+        "**/.angular": true,
+        "**/bin": true,
+        "**/node_modules": true,
+        "**/obj": true
+    },
+
+    // Disable confirmation prompt before syncing git changes
+    "git.confirmSync": false,
+
+    // Specify Git repository opening behavior when multiple folders are present
+    "git.openRepositoryInParentFolders": "never",
+
+    // Disable warning prompt for multiline pasting in the terminal
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+
+    // Set the font size for the terminal to 8
+    // "terminal.integrated.fontSize": 8,
+
+    // Enable automatic updates to import paths when files are moved in TS files
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    // Disable the command center
+    "window.commandCenter": false,
+
+    // Enable restoring to fullscreen mode when reopening Visual Studio Code
+    "window.restoreFullscreen": true,
+
+    // Hide editor actions location in the editor
+    "workbench.editor.editorActionsLocation": "hidden",
+
+    // Hide editor tabs in the editor
+    "workbench.editor.showTabs": "none",
+
+    // Set the icon theme for the workbench to "vs-minimal"
+    "workbench.iconTheme": "vs-minimal",
+
+    // Disable layout control in the workbench
+    "workbench.layoutControl.enabled": false,
+
+    // Set the location of the sidebar to the right in the workbench
+    "workbench.sideBar.location": "right",
+
+    // Specify the startup editor behavior
+    "workbench.startupEditor": "none"
+}
